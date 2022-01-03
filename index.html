@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Rose | Food Blogger</title>
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!--GOOGLE FONT: font-family: 'Raleway', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--MY CSS STYLE-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="/assets/img/logo_olivia-res.png" alt="logo del sitio web" class="img-responsive" width="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Mi trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Escríbeme</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <header class="hero text-rigth text-light pt-5">
+        <div class="container pt-5">
+            <h1 class="display-1 font-weight-bold my-3">Comidas del fin del mundo</h1>
+            <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fugit, fuga facere beatae, doloribus iusto, vero accusantium aliquam non at incidunt eum aut pariatur nobis dicta optio reprehenderit inventore tenetur?</p>
+            <a href="#" class="btn btn-lg btn-outline-info mr-3">Trabajo</a>
+            <a href="#" class="btn btn-lg btn-info">Contacto</a>
+        </div>
+    </header>
+
+    <!--CAROUSEL-->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-4 p-4 text-right">
+                <h2 class="font-weight-bold">Me has visto en:</h2>
+            </div>
+            <div class="col-8 bg-secondary text-white rounded pt-4 pb-5">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="fab fa-codepen fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="Codepen"></i>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fab fa-apper fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="Apper"></i>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fab fa-angrycreative fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="Angry Creative"></i>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fab fa-google fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="Google"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item text-center">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="fab fa-500px fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="500px"></i>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fab fa-apple fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="Apple"></i>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fab fa-aviato fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="Aviato"></i>
+                                </div>
+                                <div class="col-3">
+                                    <i class="fab fa-d-and-d fa-2x" data-container="body" data-toggler="popover" 
+                                    data-trigger="hover" data-placement="bottom" data-content="D and D"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION 1 #ABOUT-->
+    <section id="about" class="container text-center my-5">
+        <h2 class="display-4 font-weight-bold my-3">Acerca de mí</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae dolor ipsum perspiciatis voluptatem odit magnam sit impedit facilis repellat ut?
+        </p>
+        <div class="row">
+            <div class="col-md-4">
+                <i class="fas fa-3x fa-camera my-3"></i>
+                <h3 class="my-3">Fotógrafa de comida</h3>
+                <p class="my-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas impedit ipsa debitis, beatae adipisci suscipit illum amet ad accusamus quam! Magni qui provident exercitationem vel aperiam impedit iure aut voluptates.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-3x fa-bullhorn my-3"></i>
+                <h3 class="my-3">Crítica culinaria</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nulla veniam possimus architecto dolor corrupti officiis minima rem harum similique. Minima, reprehenderit?</p>
+            </div>
+            <div class="col-md-4">
+                <i class="far fa-3x fa-map my-3"></i>
+                <h3 class="my-3">Bloggera de viajes</h3>
+                <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid obcaecati ea cupiditate, porro atque magni perspiciatis consectetur, eaque laudantium non amet, quisquam maiores voluptatem.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION 2 #WORK-->
+    <section id="work" class="container-fluid my-5 p-5 bg-info">
+        <h2 class="display-4 text-center font-weight-bold text-light mb-3">Mis trabajos</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="/assets/img/img-1-res.jpg" alt="card image cap" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Asado en la Patagonia</h5>
+                    <p class="card-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eveniet voluptas accusamus nostrum nemo consectetur, aliquam rerum facilis tempore incidunt minima omnis soluta atque expedita!
+                    </p>
+                    <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#asado">
+                        Ver más
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/img-2-res.jpg" alt="card image cap" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Papas del fin del mundo</h5>
+                    <p class="card-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eveniet voluptas accusamus nostrum nemo consectetur, aliquam rerum facilis tempore incidunt minima omnis soluta atque expedita!
+                    </p>
+                    <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#papas">
+                        Ver más
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/img-3-res.jpg" alt="card image cap" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Salmón de Alaska</h5>
+                    <p class="card-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eveniet voluptas accusamus nostrum nemo consectetur, aliquam rerum facilis tempore incidunt minima omnis soluta atque expedita!
+                    </p>
+                    <button type="button" class="btn btn-outline-info btn-lg" data-toggle="modal" data-target="#salmon">
+                        ver más
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MODAL ASADO-->
+    <div class="modal fade" id="asado" tabindex="-1" role="dialog" aria-labelledby="asadoPatagonia" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="asadoPatagonia">Asado en la Patagonia</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/assets/img/img-1.jpg" class="img-fluid my-3" alt="Asado en la Patagonia">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MODAL ASADO-->
+    <!--MODAL PAPAS-->
+    <div class="modal fade" id="papas" tabindex="-1" role="dialog" aria-labelledby="papasDelFin" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="papasDelFin">Papas del fin del mundo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/assets/img/img-2.jpg" class="img-fluid my-3" alt="Asado en la Patagonia">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MODAL PAPAS-->
+    <!--MODAL SALMON-->
+    <div class="modal fade" id="salmon" tabindex="-1" role="dialog" aria-labelledby="salmonAlaska" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="salmonAlaska">Sañmón de Alaska</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/assets/img/img-3.jpg" class="img-fluid my-3" alt="Asado en la Patagonia">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque accusamus reprehenderit aspernatur odit ipsa repellendus explicabo ullam sint alias numquam.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MODAL SALMON-->
+
+    <!--SECTION 3 #CONTACT-->
+    <section id="contact" class="container my-5">
+        <h2 class="display-4 text-center font-weight-bold my-3">Contacto</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus animi dolorum libero error explicabo distinctio at consequatur, eius reprehenderit quos suscipit adipisci illum molestiae?</p>
+        <div data-tf-widget="DqwjWzpl" data-tf-opacity="0" data-tf-hide-headers data-tf-iframe-props="title=Olivia_Ros_Form" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+    </section>
+
+    <!--FOOTER-->
+
+    <footer class="bg-dark text-center text-light p-3">
+        <p>
+            Olivia Ros 2021. Todos los derechos reservados.
+        </p>
+    </footer>
+
+
+    <!--FINAL SCRIPTS-->
+    <!--JQUERY (minified)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <!--POPPER JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <!--BOOTSTRAP JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!--MY JS CODE-->
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
